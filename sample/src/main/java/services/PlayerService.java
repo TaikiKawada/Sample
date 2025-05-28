@@ -20,7 +20,7 @@ public class PlayerService {
     // SELECT文でPlayer一覧を取得するメソッド
     public List<Player> select() {
         List<Player> players = new ArrayList<>();
-        String sql = "SELECT * FROM your_database_.wouldcup2014.players";
+        String sql = "SELECT * FROM players";
 
         try (Statement stmt = conn.createStatement();
              ResultSet rs = stmt.executeQuery(sql)) {
