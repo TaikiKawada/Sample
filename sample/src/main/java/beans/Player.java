@@ -1,7 +1,7 @@
 package beans;
 
 import java.time.LocalDate;
-
+//l
 public class Player {
 	private int id;
 	private int country_id;
