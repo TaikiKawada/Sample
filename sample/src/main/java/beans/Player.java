@@ -14,7 +14,7 @@ public class Player {
 	private int weight;
 	
 	
-	//getter.setter
+	//getter.setter a
 	public int getId() {
 		return id;
 	}
