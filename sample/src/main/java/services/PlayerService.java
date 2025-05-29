@@ -34,12 +34,15 @@ public class PlayerService {
 
                 players.add(player); // リストに追加
             }
-
+            System.out.println(rs.getString("name"));
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        
+      
 
         return players;
+        
     }
 
     // 必要であれば、INSERTやUPDATEの処理もここに追加できます
